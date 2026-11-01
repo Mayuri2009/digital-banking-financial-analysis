@@ -1,107 +1,159 @@
 # Project Initiation Document
 
-## Digital Banking Financial Performance & Customer Profitability Analysis
+## 1. Project Information
 
-### Project Overview
+| Attribute | Details |
+|---|---|
+| Project Name | Digital Banking Financial Performance & Customer Profitability Analysis |
+| Project Type | Banking & Fintech Analytics |
+| Project Approach | Self-directed Agile portfolio project |
+| Project Status | In Progress |
+| Data Source | Synthetic digital banking data |
+| Primary Tools | PostgreSQL, Power BI, Excel, Jira, GitHub |
+| Currency | GBP |
+| Analysis Period | 2025 |
 
-This independent portfolio project analyzes the financial and
-operational performance of a fictional digital bank using synthetic
-data. The project combines customer analytics, transaction performance,
-revenue analysis, and financial reporting.
+## 2. Project Background
 
-### Business Problem
+Digital banking organizations generate large volumes of customer, transaction, revenue, and operational data.
 
-The bank lacks a consistent, integrated view of customer activity,
-transaction performance, and revenue. Leadership needs reliable analysis
-to understand financial performance, identify customer segments with
-different revenue patterns, and evaluate potential operational
-improvement opportunities.
+Analyzing this information can help financial and business teams understand revenue performance, customer behavior, transaction outcomes, and operating costs.
 
-### Project Objectives
+This project simulates a financial analysis initiative for a fictional digital bank. It uses synthetic data to demonstrate how a Financial Analyst or Business Analyst can transform raw banking data into meaningful business insights.
 
--   Analyze revenue and customer activity trends.
--   Compare revenue performance across customer segments.
--   Measure transaction volume, success rate, and failure rate.
--   Analyze customer retention.
--   Assess customer contribution or profitability when suitable cost
-    data is available.
--   Develop a Power BI dashboard and evidence-based recommendations.
+## 3. Business Problem
 
-### Scope
+The fictional digital bank needs a structured view of its financial and operational performance.
 
-**Included** - Customer analytics - Transaction analysis - Revenue
-reporting - Retention analysis - Data quality checks - SQL analysis -
-Excel financial modeling - Power BI reporting - Business recommendations
+The business requires insights into:
 
-**Excluded** - Real customer data - Confidential financial records -
-Live banking system changes - Credit-risk decisions - Unsupported claims
-of actual profitability
+- Revenue trends and revenue composition
+- Customer activity and customer segments
+- Transaction volume and transaction success rates
+- Customer retention
+- Operating cost trends
+- Opportunities to improve financial and operational performance
 
-### Stakeholders
+The objective is to create an analytical solution that supports data-driven decision-making.
 
-  -----------------------------------------------------------------------
-  Stakeholder                         Main interest
-  ----------------------------------- -----------------------------------
-  Finance Manager                     Revenue trends, financial KPIs,
-                                      profitability
+## 4. Project Objectives
 
-  Customer Analytics Lead             Customer activity, retention,
-                                      segmentation
+1. Analyze revenue performance across the selected analysis period.
+2. Identify customer segments contributing to revenue.
+3. Measure customer activity and retention.
+4. Evaluate transaction volume and transaction outcomes.
+5. Analyze operating costs by month and category.
+6. Develop an interactive Power BI dashboard.
+7. Translate analytical findings into actionable business recommendations.
+8. Demonstrate practical SQL, Power BI, financial analysis, requirements documentation, and Agile planning skills.
 
-  Operations Manager                  Transaction performance and
-                                      operational efficiency
+## 5. Project Scope
 
-  Product Manager                     Customer behavior and product
-                                      performance
+### In Scope
 
-  Business Analyst                    Requirements, KPI definitions,
-                                      stakeholder alignment
+- Business requirements gathering and documentation
+- Stakeholder identification
+- KPI definition and documentation
+- Agile backlog and sprint planning
+- Banking process mapping
+- Dataset preparation and PostgreSQL table creation
+- SQL-based financial and customer analysis
+- Power BI data modeling and dashboard development
+- Dashboard testing and reconciliation
+- Business insights and recommendations
+- Executive summary presentation
+- GitHub portfolio documentation
 
-  Data Analyst                        Data preparation, SQL analysis,
-                                      validation
+### Out of Scope
 
-  BI Developer                        Data model and Power BI dashboard
-  -----------------------------------------------------------------------
+- Live banking system integration
+- Real customer or confidential financial data
+- Actual banking transactions
+- Regulatory reporting certification
+- Credit risk scoring or loan underwriting
+- Production deployment
+- Customer-level profitability claims without defensible cost allocation
 
-### Success Criteria
+## 6. Key Stakeholders
 
--   KPI definitions are documented and consistently applied.
--   Data quality checks are completed.
--   SQL and Excel calculations are reconciled.
--   Dashboard visuals address approved business questions.
--   Recommendations are traceable to findings or clearly documented
-    assumptions.
+| Stakeholder | Responsibility |
+|---|---|
+| Finance Manager | Reviews financial performance and revenue insights |
+| Business Analyst | Defines requirements, KPIs, and business questions |
+| Financial Analyst | Analyzes revenue, costs, and financial performance |
+| Data Analyst | Performs SQL analysis and data preparation |
+| Operations Manager | Reviews transaction and operational performance |
+| Customer Experience Manager | Reviews customer activity and support insights |
+| Project Owner | Prioritizes project deliverables and reviews outcomes |
+
+These are simulated stakeholder roles for the portfolio project.
+
+## 7. Key Deliverables
+
+- Project Initiation Document
+- Business Requirements Document
+- Stakeholder Analysis
+- KPI Catalog
+- Agile Approach and Product Backlog
+- User Stories and Acceptance Criteria
+- Sprint Plans
+- Banking Process Flow
+- Clean Raw Data Files
+- PostgreSQL SQL Scripts
+- Financial Analysis Model
+- Power BI Dashboard
+- Testing and Reconciliation Documentation
+- Executive Summary Presentation
+- GitHub Repository
+
+## 8. Success Criteria
+
+The project will be considered successful when:
+
+- Business requirements and KPIs are clearly documented.
+- The datasets are loaded into PostgreSQL.
+- SQL queries answer the defined business questions.
+- Financial calculations use documented definitions.
+- Power BI visuals are interactive and easy to interpret.
+- Dashboard results reconcile with SQL outputs.
+- Business recommendations are supported by analysis.
+- Project artifacts are organized and documented in GitHub.
+- The project can be explained clearly in a Financial Analyst or Business Analyst interview.
+
+## 9. Assumptions and Constraints
 
 ### Assumptions
 
--   The project uses synthetic data.
--   The project simulates an Agile workflow for learning and portfolio
-    purposes.
--   The reporting period will be confirmed after reviewing the dataset.
--   Revenue and cost fields will be documented before profitability is
-    calculated.
--   If cost information is unavailable, actual customer profit will not
-    be claimed.
--   Observed data, calculated metrics, and modeled estimates will be
-    clearly distinguished.
+- The project uses synthetic data representing a fictional digital bank.
+- Financial values are denominated in GBP.
+- The analysis period is 2025.
+- Dataset relationships and KPI definitions will be documented.
+- Customer profitability will only be calculated where cost data and allocation assumptions support it.
 
-### Project Role
+### Constraints
 
-**Business Analyst / Financial Analyst** --- responsible for
-requirements, KPI definitions, analysis, validation, reporting, and
-recommendations.
+- No real banking systems or confidential datasets are available.
+- The project is developed independently.
+- Agile practices are simulated for portfolio demonstration.
+- The final analysis is limited to the fields available in the synthetic datasets.
 
-### Project Tools
+## 10. Project Approach
 
-Jira, PostgreSQL, Excel, Power BI, GitHub, and PowerPoint.
+The project will use a structured, iterative Agile approach.
 
-### Project Approach
+The work will be organized into four planned sprints:
 
-The project will follow a staged, simulated Agile workflow: 1. Project
-initiation 2. Business requirements and KPI definition 3. Agile planning
-and backlog creation 4. Data preparation and quality assessment 5.
-SQL-based analysis 6. Excel financial analysis 7. Power BI dashboard
-development 8. Testing, reconciliation, and recommendations 9. GitHub
-publication and portfolio presentation
+| Sprint | Planned Focus |
+|---|---|
+| Sprint 1 | Project initiation, requirements, stakeholders, KPIs, and backlog |
+| Sprint 2 | Data preparation, PostgreSQL setup, and SQL analysis |
+| Sprint 3 | Financial analysis, Power BI data modeling, and dashboard development |
+| Sprint 4 | Testing, reconciliation, recommendations, and final delivery |
 
+The sprint plan is a self-directed portfolio simulation and does not represent participation in a real Scrum team.
 
+## 11. Project Disclaimer
+
+This is an independent educational portfolio project. The bank, customers, transactions, revenue, and operating costs are fictional and generated for analytical practice.
+
+The project does not use confidential information from any real financial institution.
